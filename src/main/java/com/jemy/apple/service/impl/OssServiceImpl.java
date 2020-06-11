@@ -35,7 +35,6 @@ public class OssServiceImpl implements IOssService {
             ossClient.putObject(Constant.BUCKET_NAME, name, inputStream);
 
             ossClient.shutdown();
-            //https://jemy-apple.oss-cn-shenzhen.aliyuncs.com/2.jpg
             return "https://"+Constant.BUCKET_NAME+"."+Constant.ENDPOINT+"/"+name;
         } catch (IOException e) {
             e.printStackTrace();
