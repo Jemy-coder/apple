@@ -10,4 +10,12 @@ mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
+#阿里云OSS
+aliyun:
+  endpoint:
+  accessKeyId:
+  accessKeySecret:
+  bucketName:
+
+
 
